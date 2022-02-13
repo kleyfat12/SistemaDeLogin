@@ -1,0 +1,18 @@
+﻿@using SistemaDeLogin.ViewModels
+@model AccountLoginViewModel
+<form asp-controller="Account" asp-action="Login" method="post" style="width: max-content; margin: 0 auto;">
+    <h2>Login</h2>
+    <div asp-validation-summary="All"></div>
+    <div class="form-group">
+        <label asp-for="Email" class="form-col-label"></label>
+        <input asp-for="Email" type="text" name="Email" class="form-control" placeholder="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password" class="form-col-label"></label>
+        <input asp-for="Password" type="text" name="Password" class="form-control" placeholder="Contraseña" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <input type="submit" value="Iniciar sesion" class="btn btn-primary" />
+    <a asp-controller="Account" asp-action="Register">¿No tienes cuenta? Crear cuenta.</a>
+</form>
