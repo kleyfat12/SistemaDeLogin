@@ -1,5 +1,6 @@
 # SistemaDeLogin
 Antes de poder arrancar el proyecto, se deben instalar 2 cosa. El Visual Studio y .NET 5 Runtime.
+
 Visual Studio: https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false
 
 .NET 5 Runtime: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-5.0.405-windows-x64-installer
